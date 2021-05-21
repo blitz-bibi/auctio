@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+<!-- 
+<head>
+<p> hello, there!</p>
+<img src=" {% static 'images/data.png' %}" alt= "django">
+<link rel="stylesheet" href="{% static 'css/style.css' %} ">
+<h1>HTML Forms</h1>
+</head>
+-->
+<body>
+    <tr>
+        <th>name</th>
+        <th>age</th>
+        <th>asd</th>
+    </tr>
+
+    {% for row in students%}
+    
+    <tr>
+        <td>{{ row.name }}</td>
+        <td>{{ row.age }}</td>
+        <td>{{ row.asd }}</td>
+    </tr>
+    {% endfor %}
+
+</body>
+</html>

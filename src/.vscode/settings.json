@@ -1,0 +1,5 @@
+{
+    "python.linting.pylintpath": "C:\\Git\\dj_ln2\\Scripts\\pylint.exe",
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": true
+}
